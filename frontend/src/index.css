@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.8rem;
+  font-family: "Baloo Tamma 2", cursive;
+  background-color: #74c7b8;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h3 {
+  text-align: center;
+  color: #654062;
+}
+h1 {
+  border-bottom: 1rem solid #ffd66b;
+  border-radius: 2rem;
+  color: #654062;
+}
+select,
+input {
+  padding: 1rem;
+  font-size: 2rem;
+  border: 1rem ridge #ffd66b;
+  border-radius: 2rem;
+  color: #654062;
+  font-weight: bold;
+  background-color: #ffd66b;
+}
+p {
+  padding: 1rem;
+  background-color: #ffd66b;
+  border: 1rem ridge #654062;
+  border-radius: 2rem;
+  color: #654062;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  width: 50%;
+}
+/*Mobile Media Query */
+@media (max-width: 650px) {
+  h1 {
+    text-align: center;
+  }
+  h3 {
+    width: 75%;
+  }
+}
