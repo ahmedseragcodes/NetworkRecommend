@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Styles from "./index.css";
+import "./index.css";
 
 export default function App() {
   const [networkRecommendations] = useState([
