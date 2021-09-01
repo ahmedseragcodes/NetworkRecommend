@@ -1,7 +1,4 @@
-import axios from "axios";
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 import Styles from "./index.css";
 
 export default function App() {
@@ -36,7 +33,7 @@ export default function App() {
   const handleIndustryChange = function (event) {
     setIndustryType(event.target.value);
   };
-
+   // eslint-disable-next-line eqeqeq
   if (industryType == "Fitness") {
     return (
       <div>
@@ -67,6 +64,7 @@ export default function App() {
       </div>
     );
   } //End Fitness
+   // eslint-disable-next-line eqeqeq
   else if (industryType == "Finance") {
     return (
       <div>
@@ -96,6 +94,7 @@ export default function App() {
       </div>
     );
   } //End Finance
+  // eslint-disable-next-line eqeqeq
   else if (industryType == "Real Estate") {
     return (
       <div>
@@ -126,6 +125,7 @@ export default function App() {
       </div>
     );
   } //End Real Estate
+  // eslint-disable-next-line eqeqeq
   else if (industryType == "Dentistry") {
     return (
       <div>
@@ -155,6 +155,7 @@ export default function App() {
       </div>
     );
   } //End Dentistry
+  // eslint-disable-next-line eqeqeq
   else if (industryType == "Lawyer") {
     return (
       <div>

@@ -1,7 +1,5 @@
-import axios from "axios";
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 import Styles from "./index.css";
 import App from "./App.js";
 import reportWebVitals from './reportWebVitals';
